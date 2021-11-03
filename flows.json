@@ -1,0 +1,21 @@
+[
+    {
+        "id": "42109978fe16b15a",
+        "type": "function",
+        "z": "e113bd67a264e86c",
+        "name": "",
+        "func": "var ret={payload:{Command:\"\"}}\nif (msg.payload.code==0){\n    ret.payload.Command=\"Capturing...\";\n}else{\n    ret.payload.Command=\"Error: 截圖錯誤\";\n}\nreturn ret;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 560,
+        "wires": [
+            [
+                "b0a1316ca5345f7f"
+            ]
+        ]
+    }
+]
